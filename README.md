@@ -2,8 +2,6 @@
 
 Analysis of ~35 million US domestic flight records to answer three practical questions: **when should you fly to avoid delays**, **does aircraft age make delays worse**, and **can flight diversions be predicted** from scheduling and geographic data.
 
-Originally completed as part of the **ST2195 – Programming for Data Science** coursework; this repo contains the airline-delay portion of that project (the Markov Chain Monte Carlo portion is tracked separately).
-
 > 📄 **Full write-up:** [`report/Airline_Delay_Analysis_Report.md`](report/Airline_Delay_Analysis_Report.md)
 
 ![Delay by day and hour heatmap](report/assets/fig3_day_hour_heatmap.png)
