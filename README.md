@@ -1,4 +1,4 @@
-# ✈️ US Airline Flight Delay & Diversion Analysis (2004–2008)
+#  US Airline Flight Delay & Diversion Analysis (2004–2008)
 
 Analysis of ~35 million US domestic flight records to answer three practical questions: **when should you fly to avoid delays**, **does aircraft age make delays worse**, and **can flight diversions be predicted** from scheduling and geographic data.
 
@@ -53,7 +53,7 @@ Cancelled flights and rows with missing delay values are dropped, and implausibl
 Mean departure delay was grouped by `(Year, Hour)` and `(Year, DayOfWeek)`, plus a combined heatmap of both.
 
 - **Best window:** 04:00–06:00 departures, every year — delays build progressively through the day and peak 17:00–20:00.
-- **Best days:** Saturday (2004, 2005, 2007), Tuesday (2006), Wednesday (2008) — generally lower-traffic days. Friday and Sunday are consistently worst, driven by leisure-travel peaks.
+- **Best days:** Saturday (2004, 2005, 2007), Tuesday (2006), Wednesday (2008) generally lower-traffic days. Friday and Sunday are consistently worst, driven by leisure-travel peaks.
 
 ### (b) Aircraft age vs. delay
 Aircraft age (`Flight Year − Manufacture Year`) was computed via a `TailNum` merge with `plane-data.csv`, and correlated against `ArrDelay` per year.
